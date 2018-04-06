@@ -49,24 +49,86 @@ textarea {
     padding: 0.2em 0;
 }
 
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
 
+* {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif, Arial;
+}
 
+body {
+    width: 100%;
+}
 
+h1 {
+    font-size: 28px;
+    font-family: 'Roboto Condensed', Arial;
+    color: #002157
+}
 
+h2 {
+    font-size: 20px
+}
 
+h3 {
+    font-size: 18px
+}
 
+.logo_header a {
+    background: url(../img/logo-sprite.png) no-repeat scroll left top;
+    display: block;
+    float: left;
+    height: 34px;
+    text-indent: -999em;
+    width: 200px;
+}
 
+.bg-blue {
+    background-color: #002157 !important;
+    align-items: flex-start;
+}
 
+.nav-link {
+    color: white !important;
+}
 
+.navbar-light .navbar-toggler {
+    border-color: transparent;
+}
 
+.BoxMessage {
+    background-color: #00000008;
+    color: #666668;
+}
 
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
 
+.TittleSearch {
+    font-weight: bold;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
 
+.pagination .activo a {
+    background-color: #3e89cc;
+    color: #fff
+}
 
+.pagination li a {
+    color: #3e89cc
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+.NavPag {
+    padding-top: 10px;
+}
 
 /* ==========================================================================
    Media Queries
@@ -77,9 +139,9 @@ textarea {
 }
 
 @media print,
-       (-o-min-device-pixel-ratio: 5/4),
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
+(-o-min-device-pixel-ratio: 5/4),
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 120dpi) {
 
 }
 
